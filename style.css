@@ -2,12 +2,13 @@
 
 /* Set the font family and background color for the whole page */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Questrial', sans-serif;
     background-color: #f2f2f2;
 }
 
 /* Style for headings */
 h1 {
+    font-family: 'Questrial', sans-serif;
     font-size: 36px;
     color: #333;
     text-align: center;
@@ -15,6 +16,7 @@ h1 {
 
 /* Style for paragraphs */
 p {
+    font-family: 'Questrial', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: #666;
@@ -23,6 +25,7 @@ p {
 
 /* Style for links */
 a {
+    font-family: 'Questrial', sans-serif;
     color: #0099cc;
     text-decoration: none;
 }
@@ -37,6 +40,7 @@ img {
 
 /* Style for buttons */
 button {
+    font-family: 'Questrial', sans-serif;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -48,6 +52,7 @@ button {
 
 /* Style for input fields */
 input[type="text"], input[type="email"] {
+    font-family: 'Questrial', sans-serif;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
