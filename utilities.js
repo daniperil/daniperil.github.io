@@ -12,3 +12,14 @@ function changeAudio() {
     // Reload the audio to apply the new source
     audio.load();
 }
+
+// After your content is loaded (e.g., window.onload or after API calls)
+window.onload = function() {
+    // Simulating a delay for demonstration purposes
+    setTimeout(function() {
+        // Hide the loading screen
+        document.getElementById('loading-screen').style.display = 'none';
+        // Show the main content
+        document.getElementById('main-content').style.display = 'block';
+    }, 2000); // Adjust the delay time as needed
+};
