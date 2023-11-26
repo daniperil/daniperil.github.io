@@ -1,3 +1,3 @@
 # daniperil.github.io
 
-Based on the work by jishanshaikh4.
+Inspired by the work of jishanshaikh4.
