@@ -19,6 +19,17 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+
+.audio-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Background color for the "soundbar" */
+    padding: 10px; /* Add padding or adjust as needed */
+  }
+
+
 #audioControlBtns {
     /* Position the buttons within the audio wrapper */
     display: flex;
