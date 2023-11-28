@@ -6,7 +6,7 @@ const nextBtn = document.getElementById('nextBtn');
 const playlist = [
     'Acid Hues (Off the Hook)- Splatoon 2 OST.mp3',
     'Moonlight.mp3',
-    'audiofile3.mp3'
+    'World Domination.mp3'
 ];
 let currentTrackIndex = 0;
 
