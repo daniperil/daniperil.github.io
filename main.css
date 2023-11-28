@@ -1,3 +1,7 @@
+.text {
+    color: #000;
+}
+
 .custom-button:hover {
     cursor: url('images/Mario 64 Busy.ani'), auto;
 }
@@ -8,7 +12,7 @@
     /* Adjust the values to position the audio player as per your design */
     left: 20px;
     /* Additional styling */
-    background-color: #ffffff;
+    background-color: #000;
     border: 1px solid #cccccc;
     padding: 10px;
     border-radius: 5px;
