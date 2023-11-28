@@ -8,16 +8,15 @@
 
 .fixed-audio {
     /* Adjust the values to position the audio player as per your design */
-    left: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     /* Additional styling */
     background-color: #000;
     border: 1px solid #cccccc;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 
