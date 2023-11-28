@@ -6,38 +6,17 @@
     cursor: url('images/Mario 64 Busy.ani'), auto;
 }
 
-.page-content {
-    /* Set minimum height to make space for the audio player at the bottom */
-    min-height: 100vh;
-    /* Adjust as needed */
-    /* Other styles for your page content */
-}
-
-.audio-wrapper {
-    position: fixed;
+.fixed-audio {
+    /* Adjust the values to position the audio player as per your design */
+    position: absolute;
     bottom: 0;
-    left: 0;
     width: 100%;
-    background-color: #f0f0f0;
-    /* Background color for the "soundbar" */
+    /* Additional styling */
+    background-color: #000;
+    border: 1px solid #cccccc;
     padding: 10px;
-    /* Add padding or adjust as needed */
-}
-
-#audioControlBtns {
-    /* Position the buttons within the audio wrapper */
-    display: flex;
-    justify-content: space-between;
-}
-
-.audio-control {
-    /* Style your control buttons */
-    /* For example: */
-    padding: 8px 16px;
-    background-color: #ccc;
-    border: none;
-    border-radius: 4px;
-    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
