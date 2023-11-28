@@ -11,8 +11,6 @@ div {
     /* Sets the writing mode to display text vertically */
     text-align: center;
     /* Centers the text horizontally */
-    position: fixed;
-    /* Fixes the column in place */
     top: 0;
     /* Adjust positioning as needed */
     left: 0;
