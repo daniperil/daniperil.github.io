@@ -2,6 +2,15 @@
     color: #000;
 }
 
+.melting-text span {
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .melting-text:hover span {
+    transform: translateY(10px) rotate(10deg) scale(1.1, 0.9);
+  }
+
 div {
     margin-bottom: 40px;
 }
@@ -17,7 +26,7 @@ div {
     /* Adjust positioning as needed */
     height: 100vh;
     /* Sets the height to full viewport height */
-    width: 300px;
+    width: 250px;
     /* Sets the width of the column */
     background-color: lightgray;
     /* Adds a background color */
