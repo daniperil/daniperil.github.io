@@ -2,6 +2,10 @@
     color: #000;
 }
 
+div {
+    margin-bottom: 40px;
+}
+
 .custom-button:hover {
     cursor: url('images/Mario 64 Busy.ani'), auto;
 }
