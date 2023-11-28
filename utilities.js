@@ -1,25 +1,32 @@
-function changeAudio() {
-    var audio = document.getElementById('myAudio');
-    var source = document.getElementById('audioSource');
+const audio = document.getElementById('myAudio');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
 
-    // Check the current source and switch to the other audio file
-    if (source.src === 'Acid Hues (Off the Hook)- Splatoon 2 OST.mp3') {
-        source.src = 'ムーンライト伝説 - DALI.mp3'; // Change to the second audio file
-    } else {
-        source.src = 'Acid Hues (Off the Hook)- Splatoon 2 OST.mp3'; // Change back to the first audio file
-    }
+// Define your playlist or array of audio sources
+const playlist = [
+  'Acid Hues (Off the Hook)- Splatoon 2 OST.mp3',
+  'ムーンライト伝説 - DALI.mp3',
+  'audiofile3.mp3'
+];
+let currentTrackIndex = 0;
 
-    // Reload the audio to apply the new source
-    audio.load();
+// Function to play the current track
+function playTrack() {
+  audio.src = playlist[currentTrackIndex];
+  audio.play();
 }
 
-// After your content is loaded (e.g., window.onload or after API calls)
-window.onload = function() {
-    // Simulating a delay for demonstration purposes
-    setTimeout(function() {
-        // Hide the loading screen
-        document.getElementById('loading-screen').style.display = 'none';
-        // Show the main content
-        document.getElementById('main-content').style.display = 'block';
-    }, 2000); // Adjust the delay time as needed
-};
+// Event listener for the "Next" button
+nextBtn.addEventListener('click', () => {
+  currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
+  playTrack();
+});
+
+// Event listener for the "Previous" button
+prevBtn.addEventListener('click', () => {
+  currentTrackIndex = (currentTrackIndex - 1 + playlist.length) % playlist.length;
+  playTrack();
+});
+
+// Play the initial track
+playTrack();
