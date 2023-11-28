@@ -7,8 +7,6 @@
 }
 
 .fixed-audio {
-    position: fixed;
-    bottom: 20px;
     /* Adjust the values to position the audio player as per your design */
     left: 20px;
     /* Additional styling */
