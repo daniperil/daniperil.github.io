@@ -37,6 +37,10 @@ div {
     /* Adjust the color of the letters */
 }
 
+/* Added this to change the order of elements */
+.vertical-column p {
+    order: -1;
+}
 
 
 .custom-button:hover {
