@@ -18,7 +18,7 @@ div {
 
 .vertical-column {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     background-color: #000;
