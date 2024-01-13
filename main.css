@@ -22,6 +22,8 @@ div {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     background-color: #000;
+    height: 100vh;
+    /* Set the height to 100% of the viewport height */
 }
 
 .vertical-column span {
