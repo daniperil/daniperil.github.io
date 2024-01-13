@@ -22,7 +22,8 @@ div {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     background-color: #000;
-    height: 100vh;
+    height: 100%;
+    width: 30%;
     /* Set the height to 100% of the viewport height */
 }
 
