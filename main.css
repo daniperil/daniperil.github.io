@@ -15,11 +15,13 @@ div {
     margin-bottom: 40px;
 }
 
+
 .vertical-column {
     display: flex;
     flex-direction: column;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
+    background-color: #000;
 }
 
 .vertical-column span {
@@ -31,22 +33,6 @@ div {
     color: #333;
     /* Adjust the color of the letters */
 }
-
-.neon-border {
-    width: 50px; /* Adjust the width of the neon border */
-    height: 100vh; /* Fills the space from bottom to top */
-    background: linear-gradient(136deg, rgb(68,132,206), rgb(26,215,192), rgb(255,155,17), rgb(155,89,182), rgb(255,127,127), rgb(236,240,241));
-    animation: neonAnimation 1.5s linear infinite;
-  }
-  
-  @keyframes neonAnimation {
-    0%, 100% {
-      background-size: 1200% 1200%;
-    }
-    50% {
-      background-size: 100% 100%;
-    }
-  }
 
 
 
