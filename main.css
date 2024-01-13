@@ -138,6 +138,8 @@ body {
 
 .custom-heading {
     font-family: 'Questrial', sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
